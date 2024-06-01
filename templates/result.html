@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .prediction {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        .setosa {
+            color: green;
+        }
+
+        .versicolor {
+            color: blue;
+        }
+
+        .virginica {
+            color: rgb(8, 0, 8);
+        }
+    </style>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <p class="prediction">The predicted flower species is: <span class="{{ prediction_class }}">{{ prediction }}</span></p>
+</body>
+</html>
+

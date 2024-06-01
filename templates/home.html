@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .iris-images {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .iris-images .flower-container {
+            margin: 0 10px;
+            text-align: center;
+        }
+
+        .iris-images img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            border: 2px solid #333;
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+
+        .iris-images img:hover {
+            transform: scale(1.1);
+        }
+
+        .flower-name {
+            margin-top: 10px;
+            color: #333;
+        }
+
+        p {
+            margin-top: 20px;
+        }
+
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 3px;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Flower Prediction App</h1>
+    <div class="iris-images">
+        <div class="flower-container">
+            <img src="{{ url_for('static', filename='iris_setosa.jpeg') }}" alt="Iris Setosa" title="Iris Setosa">
+            <p class="flower-name">Iris Setosa</p>
+        </div>
+        <div class="flower-container">
+            <img src="{{ url_for('static', filename='iris_versicolor.jpg') }}" alt="Iris Versicolor" title="Iris Versicolor">
+            <p class="flower-name">Iris Versicolor</p>
+        </div>
+        <div class="flower-container">
+            <img src="{{ url_for('static', filename='Iris_virginica.jpg') }}" alt="Iris Virginica" title="Iris Virginica">
+            <p class="flower-name">Iris Virginica</p>
+        </div>
+    </div>
+    <p><a href="{{ url_for('predict') }}">Predict Flower Species</a></p>
+</body>
+</html>
