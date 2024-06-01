@@ -1,6 +1,6 @@
 import os
 import joblib
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask, render_template
 from forms import FlowerForm
 
 app = Flask(__name__)
