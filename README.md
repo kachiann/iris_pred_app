@@ -7,10 +7,18 @@ The project involves building a web application for predicting flower species ba
 
 ## Getting Started
 
+### Features
+
+- Predicts iris species using a machine learning model.
+- Simple and intuitive web interface.
+- Deployed on Heroku for easy scalability and accessibility.
+
 ### Prerequisites
 
 - Python 3.x
-- pip
+- `pip` for managing Python packages
+- Git for version control
+- Heroku CLI for deployment
 
 ### Installation
 1. Clone the repository:
@@ -26,3 +34,11 @@ The project involves building a web application for predicting flower species ba
 4. Run the Flask app:
     ```bash
     python app.py
+#### Acknowledgements
+- Thanks to the [Flask](https://flask.palletsprojects.com/) team for their excellent web framework.
+- Thanks to [Heroku](https://www.heroku.com/) for providing a platform for deploying web applications.
+- Thanks to the creators of the [Iris dataset](https://archive.ics.uci.edu/ml/datasets/iris) for their work.
+
+## Contact
+
+For any questions or comments, please open an issue or contact me at [kachiann12@gmail.com](kachiann12@gmail.com).
