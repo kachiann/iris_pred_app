@@ -41,4 +41,4 @@ The project involves building a web application for predicting flower species ba
 
 ## Contact
 
-For any questions or comments, please open an issue or contact me at [kachiann12@gmail.com](kachiann12@gmail.com).
+For any questions or comments, please open an issue or contact me at [kachiann12@gmail.com](mailto:kachiann12@gmail.com).
