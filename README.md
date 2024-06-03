@@ -34,11 +34,13 @@ The project involves building a web application for predicting flower species ba
 4. Run the Flask app:
     ```bash
     python app.py
+Navigate to http://127.0.0.1:5000
 #### Acknowledgements
 - Thanks to the [Flask](https://flask.palletsprojects.com/) team for their excellent web framework.
 - Thanks to [Heroku](https://www.heroku.com/) for providing a platform for deploying web applications.
 - Thanks to the creators of the [Iris dataset](https://archive.ics.uci.edu/ml/datasets/iris) for their work.
 
 ## Contact
+If you like this project, please do give the star.
 
 For any questions or comments, please open an issue or contact me at [kachiann12@gmail.com](mailto:kachiann12@gmail.com).
