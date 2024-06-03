@@ -25,13 +25,26 @@ The project involves building a web application for predicting flower species ba
    ```bash
    git clone https://github.com/kachiann/iris_pred_app.git
    cd iris_pred_app
-2. Install the required packages:
+
+2. To start a new project and utilize it efficiently, it's recommended to create a virtual environment tailored for that project. Here are the steps to create a virtual environment:
+
+   a. Install the `virtualenv` package by running:
+      ```
+      pip install virtualenv
+      ```
+   b. Create a virtual environment named `myenv` by executing:
+      ```
+      python -m virtualenv myenv
+      ```
+Once you've completed these steps, you'll have a virtual environment named `myenv` ready to use for your project.
+
+3. Install the required packages:
     ```bash
     pip install -r requirements.txt
-3. Train and save the model:
+4. Train and save the model:
     ```bash
     python model.py
-4. Run the Flask app:
+5. Run the Flask app:
     ```bash
     python app.py
 Navigate to http://127.0.0.1:5000
