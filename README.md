@@ -15,7 +15,7 @@ The project involves building a web application for predicting flower species ba
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.11
 - `pip` for managing Python packages
 - Git for version control
 - Heroku CLI for deployment
